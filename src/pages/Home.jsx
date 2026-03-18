@@ -33,7 +33,7 @@ function Home() {
                     {/*    <iframe src="https://discord.com/widget?id=1118461204281696258&theme=dark" width="400"*/}
                     {/*            height="500" allowTransparency="true" frameBorder="0"*/}
                     {/*            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>*/}
-                    <a href='http://map.taeko-and-co.ch:3876/#world:-5871:109:7689:0:0.58:1.33:0:0:free'><img
+                    <a href='http://live.dothost.net:3876/#world:-5871:109:7689:0:0.58:1.33:0:0:free'><img
                         src={imgWengenHB} alt='Wengen HB'/></a>
                 </div>
             </div>
