@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('/src/assets/css/standard.css');
+@import url('/src/assets/css/narrow.css');
+
+
+
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "DJR";
+  font-weight: normal;
+  src: url("/src/assets/font/FormaDJRDisplay-Regular-Testing.woff");
+}
+@font-face {
+  font-family: "DJR";
+  font-weight: bold;
+  src: url("/src/assets/font/FormaDJRDisplay-Black-Testing.woff");
+}
+
+@font-face {
+  font-family: "HNeue";
+  font-weight: bold;
+  src: url("/src/assets/font/HelveticaNeueBold.ttf");
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #343C3D;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+/* ! overwritten in menu bar (nav.css) */
+a {
+  font-weight: 500;
+  color: #7f86f6;
+  text-decoration: inherit;
+}
+a:hover {
+  transition: 0.2s;
+  filter: drop-shadow(0 0 0.5em rgba(172, 176, 255, 0.67));
+  color: #fff;
+}
+
+div { }
+
+body {
+  font-size: 18px;
+  margin: 0;
+  background-image: url("/src/assets/img/noise-light.png");
+  background-color: #3D3634;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

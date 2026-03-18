@@ -1,0 +1,50 @@
+.page {
+    justify-self: left;
+    height: 100vh;
+    width: 85vw;
+    padding: 2rem;
+    text-align: left;
+    overflow: auto;
+    h3 {
+        font-family: "Libre Baskerville", serif;
+        font-size: 3rem;
+        letter-spacing: -3px;
+        color: white;
+        font-style: italic;
+        margin: 0;
+        text-align: left;
+        text-align-last: left;
+    }
+    img {
+        max-width: 100%;
+        border-radius: 0.5rem;
+        will-change: filter;
+        transition: filter 300ms;
+    }
+    img:hover + .hide {
+        filter: drop-shadow(0 0 0.5em #1a1a1aab);
+        display: block;
+    }
+}
+
+.section {
+    p {
+        hyphens: auto;
+        font-weight: normal;
+        /*letter-spacing: 1px;*/
+    }
+    .blockText {
+        text-align: justify;
+        text-align-last: justify;
+    }
+}
+
+.section-important-links {
+    a {
+        font-size: 1.5rem;
+    }
+}
+
+.hide {
+    display: none;
+}
